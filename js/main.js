@@ -26,10 +26,6 @@ $(document).ready(function () {
 
             });
 
-$('#contact-form').submit(function(){
-    header:location('index.html');
-    
-});
 
 $('.owl-carousel').owlCarousel({
     loop:true,
