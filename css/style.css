@@ -375,22 +375,7 @@ background-color: #ed3833;
 	color: #999;
 }
 
-a.move-top {
-	width: 34px;
-	height: 34px;
-	/*    background: url(../images/move-top.png) no-repeat;*/
-	display: inline-block;
-	position: fixed;
-	bottom: 4%;
-	right: 2%;
-	z-index: 0;
-	color: #f7b71d;
-}
 
-a.move-top:hover{
-	color:  #999;
-
-}
 
 
 
