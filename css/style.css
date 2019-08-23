@@ -5,7 +5,13 @@
     font-family: 'Tinos', serif;
 
 }
-
+html{
+    scroll-behavior: smooth;
+    
+}
+.error{
+    font-style: italic;
+}
 header{
 	width: 100%;
 	position: absolute;
@@ -271,6 +277,7 @@ transform: translate(10px, 40px);
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: ;
+	position: relative;
 }
 
 
@@ -286,8 +293,14 @@ form{
     color:  rgba(255,0,0,0.7);
     font-size: 20px;
     width: 40%;
-    transform:translate(150px,80px);
+    position: absolute;
+    left: 120px;
+    top: 50px;
 
+}
+
+label{
+    margin-bottom: 0 !important;
 }
 
 /* footer */
@@ -496,9 +509,9 @@ nav a {
 }
 
 form{
-	font-size: 18px;
+    font-size: 18px;
     width: 80%;
-    transform: translate(35px,75px);
+    
 
 }
 
