@@ -1,3 +1,31 @@
+// form validation
+
+
+$(document).ready(function () {
+    
+                $("#contact-form").validate({
+                    rules: {
+                        "username": {
+                            required: true,
+                                  minlength: 3
+                             }, 
+                                  "email": {
+                            required: true,
+                            email: true
+                        }, 
+                                   "mobile": {
+                            required: true,
+                            minlength: 10,
+                                  maxlength: 10
+                        },
+                        
+                    }
+
+                });
+
+
+            });
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -47,33 +75,7 @@ $('.testi').owlCarousel({
 })
 
 
-// form validation
 
-
-$(document).ready(function () {
-    
-                $("#contact-form").validate({
-                    rules: {
-                        "username": {
-                            required: true,
-                                  minlength: 3
-                             }, 
-                                  "email": {
-                            required: true,
-                            email: true
-                        }, 
-                                   "mobile": {
-                            required: true,
-                            minlength: 10,
-                                  maxlength: 10
-                        },
-                        
-                    }
-
-                });
-
-
-            });
 
 $(window).scroll(function () {
      var scroll = $(window).scrollTop();
