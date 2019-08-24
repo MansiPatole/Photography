@@ -25,10 +25,6 @@ $(document).ready(function () {
 
 
             });
-$("#contact-form").submit(function(){
-    
-    alert("sone");
-});
 
 $('.owl-carousel').owlCarousel({
     loop:true,
